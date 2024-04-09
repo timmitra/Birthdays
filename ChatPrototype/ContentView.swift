@@ -14,7 +14,7 @@ struct ContentView: View {
     Friend(name: "Jenny Court", birthday: Date(timeIntervalSince1970: 0))
   ]
   @State private var newName = ""
-  @State private var newDate = ""
+  @State private var newDate = Date.now
   
     var body: some View {
       NavigationStack {
@@ -28,6 +28,10 @@ struct ContentView: View {
           VStack(alignment: .center, spacing: 20) {
             Text("New Birthday")
               .font(.headline)
+            DatePicker(selection: $newDate, in: Date.distantPast...Date.now, displayedComponents: .date) {
+              TextField("Name", text: $newName)
+                .textFieldStyle(.roundedBorder)
+            }
           }
         }
       }
