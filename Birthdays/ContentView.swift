@@ -50,10 +50,10 @@ struct ContentView: View {
           .padding()
           .background(.bar)
         }
-        .task {
-          context.insert(Friend(name: "Elton Lin", birthday: .now))
-          context.insert(Friend(name: "Jenny Court", birthday: Date(timeIntervalSince1970: 0)))
-        }
+//        .task {
+//          context.insert(Friend(name: "Elton Lin", birthday: .now))
+//          context.insert(Friend(name: "Jenny Court", birthday: Date(timeIntervalSince1970: 0)))
+//        }
       }
     }
 }
