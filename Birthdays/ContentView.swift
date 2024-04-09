@@ -20,7 +20,13 @@ struct ContentView: View {
       NavigationStack {
         List(friends) { friend in
           HStack {
+            if friend.isBirthdayToday {
+              Image(systemName: "birthday.cake")
+            }
             Text(friend.name)
+              .bold(friend.isBirthdayToday)
+            Spacer()
+              Text(friend.birthday, format: .dateTime.month(.wide).day().year())
           }
         }
         .navigationTitle("Birthdays")
