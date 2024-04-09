@@ -61,11 +61,11 @@
 		2A90CB842BC4FB3300E8C159 /* Birthdays */ = {
 			isa = PBXGroup;
 			children = (
-				2A90CB7F2BC4FB3300E8C159 /* Preview Content */,
-				2A90CB802BC4FB3300E8C159 /* Assets.xcassets */,
 				2A90CB812BC4FB3300E8C159 /* BirthdaysApp.swift */,
 				2A90CB822BC4FB3300E8C159 /* ContentView.swift */,
 				2A90CB832BC4FB3300E8C159 /* Friend.swift */,
+				2A90CB802BC4FB3300E8C159 /* Assets.xcassets */,
+				2A90CB7F2BC4FB3300E8C159 /* Preview Content */,
 			);
 			path = Birthdays;
 			sourceTree = SOURCE_ROOT;
