@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
   
-  @Query private var friends: [Friend]
+  @Query(sort: \Friend.birthday) private var friends: [Friend]
   @Environment(\.modelContext) private var context
   
   @State private var newName = ""
@@ -18,7 +18,7 @@ struct ContentView: View {
   
     var body: some View {
       NavigationStack {
-        List(friends, id: \.name) { friend in
+        List(friends) { friend in
           HStack {
             Text(friend.name)
           }
