@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A8F7C3C2BC4EFB3007FBE7D /* ChatPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F7C3B2BC4EFB3007FBE7D /* ChatPrototypeApp.swift */; };
-		2A8F7C3E2BC4EFB3007FBE7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F7C3D2BC4EFB3007FBE7D /* ContentView.swift */; };
-		2A8F7C402BC4EFB5007FBE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8F7C3F2BC4EFB5007FBE7D /* Assets.xcassets */; };
-		2A8F7C432BC4EFB5007FBE7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8F7C422BC4EFB5007FBE7D /* Preview Assets.xcassets */; };
-		2A8F7C4A2BC4F58D007FBE7D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F7C492BC4F58D007FBE7D /* Friend.swift */; };
+		2A90CB852BC4FB3300E8C159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A90CB7E2BC4FB3300E8C159 /* Preview Assets.xcassets */; };
+		2A90CB862BC4FB3300E8C159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A90CB802BC4FB3300E8C159 /* Assets.xcassets */; };
+		2A90CB872BC4FB3300E8C159 /* BirthdaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90CB812BC4FB3300E8C159 /* BirthdaysApp.swift */; };
+		2A90CB882BC4FB3300E8C159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90CB822BC4FB3300E8C159 /* ContentView.swift */; };
+		2A90CB892BC4FB3300E8C159 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90CB832BC4FB3300E8C159 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A8F7C382BC4EFB3007FBE7D /* ChatPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A8F7C3B2BC4EFB3007FBE7D /* ChatPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPrototypeApp.swift; sourceTree = "<group>"; };
-		2A8F7C3D2BC4EFB3007FBE7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2A8F7C3F2BC4EFB5007FBE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A8F7C422BC4EFB5007FBE7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2A8F7C492BC4F58D007FBE7D /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		2A8F7C382BC4EFB3007FBE7D /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A90CB7E2BC4FB3300E8C159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A90CB802BC4FB3300E8C159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A90CB812BC4FB3300E8C159 /* BirthdaysApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdaysApp.swift; sourceTree = "<group>"; };
+		2A90CB822BC4FB3300E8C159 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A90CB832BC4FB3300E8C159 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		2A8F7C2F2BC4EFB3007FBE7D = {
 			isa = PBXGroup;
 			children = (
-				2A8F7C3A2BC4EFB3007FBE7D /* ChatPrototype */,
+				2A90CB842BC4FB3300E8C159 /* Birthdays */,
 				2A8F7C392BC4EFB3007FBE7D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,37 +45,37 @@
 		2A8F7C392BC4EFB3007FBE7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A8F7C382BC4EFB3007FBE7D /* ChatPrototype.app */,
+				2A8F7C382BC4EFB3007FBE7D /* Birthdays.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A8F7C3A2BC4EFB3007FBE7D /* ChatPrototype */ = {
+		2A90CB7F2BC4FB3300E8C159 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2A8F7C3B2BC4EFB3007FBE7D /* ChatPrototypeApp.swift */,
-				2A8F7C3D2BC4EFB3007FBE7D /* ContentView.swift */,
-				2A8F7C3F2BC4EFB5007FBE7D /* Assets.xcassets */,
-				2A8F7C412BC4EFB5007FBE7D /* Preview Content */,
-				2A8F7C492BC4F58D007FBE7D /* Friend.swift */,
-			);
-			path = ChatPrototype;
-			sourceTree = "<group>";
-		};
-		2A8F7C412BC4EFB5007FBE7D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2A8F7C422BC4EFB5007FBE7D /* Preview Assets.xcassets */,
+				2A90CB7E2BC4FB3300E8C159 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2A90CB842BC4FB3300E8C159 /* Birthdays */ = {
+			isa = PBXGroup;
+			children = (
+				2A90CB7F2BC4FB3300E8C159 /* Preview Content */,
+				2A90CB802BC4FB3300E8C159 /* Assets.xcassets */,
+				2A90CB812BC4FB3300E8C159 /* BirthdaysApp.swift */,
+				2A90CB822BC4FB3300E8C159 /* ContentView.swift */,
+				2A90CB832BC4FB3300E8C159 /* Friend.swift */,
+			);
+			path = Birthdays;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A8F7C372BC4EFB3007FBE7D /* ChatPrototype */ = {
+		2A8F7C372BC4EFB3007FBE7D /* Birthdays */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A8F7C462BC4EFB5007FBE7D /* Build configuration list for PBXNativeTarget "ChatPrototype" */;
+			buildConfigurationList = 2A8F7C462BC4EFB5007FBE7D /* Build configuration list for PBXNativeTarget "Birthdays" */;
 			buildPhases = (
 				2A8F7C342BC4EFB3007FBE7D /* Sources */,
 				2A8F7C352BC4EFB3007FBE7D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ChatPrototype;
+			name = Birthdays;
 			productName = ChatPrototype;
-			productReference = 2A8F7C382BC4EFB3007FBE7D /* ChatPrototype.app */;
+			productReference = 2A8F7C382BC4EFB3007FBE7D /* Birthdays.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A8F7C332BC4EFB3007FBE7D /* Build configuration list for PBXProject "ChatPrototype" */;
+			buildConfigurationList = 2A8F7C332BC4EFB3007FBE7D /* Build configuration list for PBXProject "Birthdays" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A8F7C372BC4EFB3007FBE7D /* ChatPrototype */,
+				2A8F7C372BC4EFB3007FBE7D /* Birthdays */,
 			);
 		};
 /* End PBXProject section */
@@ -128,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8F7C432BC4EFB5007FBE7D /* Preview Assets.xcassets in Resources */,
-				2A8F7C402BC4EFB5007FBE7D /* Assets.xcassets in Resources */,
+				2A90CB852BC4FB3300E8C159 /* Preview Assets.xcassets in Resources */,
+				2A90CB862BC4FB3300E8C159 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8F7C4A2BC4F58D007FBE7D /* Friend.swift in Sources */,
-				2A8F7C3E2BC4EFB3007FBE7D /* ContentView.swift in Sources */,
-				2A8F7C3C2BC4EFB3007FBE7D /* ChatPrototypeApp.swift in Sources */,
+				2A90CB872BC4FB3300E8C159 /* BirthdaysApp.swift in Sources */,
+				2A90CB882BC4FB3300E8C159 /* ContentView.swift in Sources */,
+				2A90CB892BC4FB3300E8C159 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChatPrototype/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Birthdays/Preview Content\"";
 				DEVELOPMENT_TEAM = 476QK54UU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.ChatPrototype";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.Birthdays";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChatPrototype/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Birthdays/Preview Content\"";
 				DEVELOPMENT_TEAM = 476QK54UU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.ChatPrototype";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.Birthdays";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A8F7C332BC4EFB3007FBE7D /* Build configuration list for PBXProject "ChatPrototype" */ = {
+		2A8F7C332BC4EFB3007FBE7D /* Build configuration list for PBXProject "Birthdays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A8F7C442BC4EFB5007FBE7D /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A8F7C462BC4EFB5007FBE7D /* Build configuration list for PBXNativeTarget "ChatPrototype" */ = {
+		2A8F7C462BC4EFB5007FBE7D /* Build configuration list for PBXNativeTarget "Birthdays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A8F7C472BC4EFB5007FBE7D /* Debug */,

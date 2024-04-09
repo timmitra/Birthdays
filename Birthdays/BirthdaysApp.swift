@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ChatPrototypeApp: App {
+struct BirthdaysApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
