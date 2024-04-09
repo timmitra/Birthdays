@@ -34,9 +34,14 @@ struct ContentView: View {
             }
             Button("Save") {
               let newFriend = Friend(name: newName, birthday: newDate)
+              friends.append(newFriend)
+              newName = ""
+              newDate = .now
             }
             .bold()
           }
+          .padding()
+          .background(.bar)
         }
       }
     }
